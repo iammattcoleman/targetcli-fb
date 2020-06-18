@@ -34,8 +34,8 @@ from .ui_backstore import complete_path, UIBackstores
 from .ui_node import UINode
 from .ui_target import UIFabricModule
 
-default_save_file = "/etc/target/saveconfig.json"
-universal_prefs_file = "/etc/target/targetcli.conf"
+default_save_file = "/etc/rtslib-fb-target/saveconfig.json"
+universal_prefs_file = "/etc/rtslib-fb-target/targetcli.conf"
 
 class UIRoot(UINode):
     '''
